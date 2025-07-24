@@ -501,7 +501,7 @@ body {
 
 .subscribe-section{
    
-    background-image: url('../assets/news-letter-bg.png');
+background-image: url('/assets/news-letter-bg.png');
     /* background-image: url('your-image.jpg'); */
   background-size: cover;   
   background-position: center;  
@@ -518,10 +518,7 @@ body {
 width: 100%;
 
 }
-.subscribe-form button{
 
-
-}
 .subscribe-title{
 
 white-space: nowrap;
@@ -532,9 +529,7 @@ white-space: nowrap;
 
 
 
-/* .subscribe-form {
-    flex-direction: column;
-  } */
+
 
   .subscribe-form input,
   .subscribe-form button {
