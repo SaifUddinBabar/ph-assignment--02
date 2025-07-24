@@ -53,11 +53,13 @@
     gap: 13px;
     
 }
+
 .banner-title{
     font-size: 4.14rem;
     font-weight: bold;
     
 }
+
 .banner-title span{
     color: #E95A08;
 }
@@ -66,6 +68,117 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+
+.plant-section-content p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.5);
+    /* max-width: 1100px; */
+    
+}
+
+.plant-section-content{
+    text-align: center;
+
+    justify-items: center;
+}
+.plant-title {
+    font-size: 3.1rem;
+    font-weight: bold;
+}
+.plant-section-content h2 span{
+    color: #E95A08;
+}
+.plant-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.card p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #111111;
+    margin: 0;
+   
+
+}
+.plant-h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0;
+    
+}
+.card {
+  text-align: center;
+  /* padding: 20px; */
+  /* border: 1px solid #eee; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.05); */
+  background-color: #fff;
+margin: 20px 28px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+
+}
+
+.card p {
+  font-size: 1.4rem;
+      color: #111111;
+
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 12px; 
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color:#E95A08;
+  color: white;
+  border: none;
+  /* border-radius: 5px; */
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 250px;
+}
+
+
+.Plants-Lover{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 210px;
+}
+.lover h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.lover-content ul li{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+   margin-bottom: 20px;
+}
+.lover-img img{
+    position: relative;
+    width: 540px;
+    height: 597px;
+}
+.lover-img .badge img{
+    top: -100px;
+    width: 286px;
+    height: 886px;
+position: absolute;
+}
 @media screen and (max-width: 576px) {
     .banner{
         flex-direction: column-reverse;
@@ -73,5 +186,19 @@
     }
     .nav-list{
         display: none;
+
+        
     }
+    .plant-card{
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+ 
+    
+}
+.btn{
+    width: 100%;
+}
+.banner-img img{
+    width: 100%;
+}
 }
