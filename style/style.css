@@ -155,10 +155,11 @@ margin: 20px 28px;
     display: flex;
     gap: 60px;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     margin-top: 210px;
+    
 }
-.lover h2{
+.lover-title{
     font-size: 50px;
     font-weight: bold;
 }
@@ -168,17 +169,24 @@ margin: 20px 28px;
     color: rgba(0, 0, 0, 0.5);
    margin-bottom: 20px;
 }
-.lover-img img{
-    position: relative;
-    width: 540px;
-    height: 597px;
+.lover-content{
+    max-width: 100%;
+    margin: 0 auto;
 }
-.lover-img .badge img{
-    top: -100px;
-    width: 286px;
-    height: 886px;
-position: absolute;
+.lover-img {
+  position: relative;
+  width: 597px;
+  height: 540px;
+  width: 100%;
 }
+
+.badge {
+  position: absolute;
+  top: -140px;
+  right: -90px;
+  width: 280px; 
+}
+
 @media screen and (max-width: 576px) {
     .banner{
         flex-direction: column-reverse;
@@ -201,4 +209,55 @@ position: absolute;
 .banner-img img{
     width: 100%;
 }
+.Plants-Lover{
+    flex-direction: column;
+
+}
+.badge{
+    display: none;
+}
+.lover-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+.lover-content{
+
+    margin-top: 18px;
+    width: ;
+}
+
+
+.lover-content ul li{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+   margin-bottom: 20px;
+   max-width: 400px;
+   margin: 0 auto;
+}
+
+.Plants-Lover {
+    flex-direction: column;
+    margin-top: 18px;
+    gap: 18px;
+    align-items: center;
+    text-align: center;
+    text-align: left;
+}
+.lover-img {
+  width: 358px;
+  height: 396px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.lover-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+
 }
