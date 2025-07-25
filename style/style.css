@@ -531,6 +531,11 @@ body {
         flex-direction: column-reverse;
         margin-top: 28px;
     }
+    .banner-contents{
+         /* padding: 0 16px; */
+    /* text-align: left; */
+margin-left: -50px;      
+    }
     .nav-list{
         display: none;
 
@@ -540,8 +545,35 @@ body {
     /* display: grid; */
     grid-template-columns: repeat(2, 1fr);
  
-    
+ 
 }
+
+
+   .banner-title{
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 28px;
+    }
+    .banner-description{
+      font-size: 14px;
+margin-top: 13px;
+    }
+
+  .plant-title{
+     font-size: 24px;
+      font-weight: bold;
+      margin-top: 28px;
+      margin-top: 65px;
+  }
+
+  .plant-description{
+        font-size: 14px;
+margin-top: 13px;
+margin-bottom: 28px;
+  }
+    .banner-img{
+      width: 100%;
+    }
 .btn{
     width: 100%;
 }
@@ -717,4 +749,8 @@ white-space: nowrap;
   margin-bottom: 51px;
   max-width: 400px;
 }
+.input-title{
+  font-size: 20px;
+}
+
 }
